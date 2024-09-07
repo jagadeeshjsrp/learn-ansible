@@ -24,7 +24,7 @@
 
 # vars_files does not support task level, it is for play level only
 
-- name: Demo on Taks Level Variables
+- name: Demo on Task Level Variables
   hosts: all
   tasks:
     - name: Print URL
